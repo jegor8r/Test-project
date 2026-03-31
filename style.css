@@ -1,0 +1,43 @@
+body {
+    background-color: #E6E8E6;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #553A41;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #553A41;
+    border-radius: 10px;
+}
+.hero img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.offers{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #553A41;
+}
+.newArrivals{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #553A41;
+}
