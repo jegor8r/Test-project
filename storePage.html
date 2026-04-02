@@ -7,6 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<header>
+    <img src="Pictures/ShmotkiLogo.png" alt="Shmotki Logo" class="logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="storePage.html">Shop</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<div class="storeBox">
+    <div class="searchBox">
+        <input type="text" placeholder="Search for products..." class="searchInput">
+        <button class="searchButton">Search</button>
+        <div class="filter-wrapper">
+            <button class="filter-toggle">Filter ▼</button>
+            <div class="filter-dropdown hidden">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hoodies">Hoodies</button>
+                <button class="filter-btn" data-filter="shoes">Shoes</button>
+                <button class="filter-btn" data-filter="pants">Pants</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="card hoodies">
+            <img src="Pictures/Hoodie/ShmotkiHoodieGrey.png" alt="Hoodie 1">
+            <p class="card-name">Hoodie- grey hoodie</p>
+            <p class="card-price">€29.99</p>
+        </div>
+        <div class="card shoes">
+            <img src="Pictures/Sneakers/ShmotkiSneakers.png" alt="Sneakers 1">
+            <p class="card-name">Sneakers- jeans sneakers</p>
+            <p class="card-price">€49.99</p>
+        </div>
+        <div class="card pants">
+            <img src="Pictures/Pants/ShmotkiJeans.png" alt="Pants 1">
+            <p class="card-name">Pants- jeany jeans</p>
+            <p class="card-price">€34.99</p>
+        </div>
+        <div class="card hoodies">
+            <img src="Pictures/Hoodie/ShmotkiHoodie.png" alt="Hoodie 2">
+            <p class="card-name">Hoodie- jeans hoodie</p>
+            <p class="card-price">€32.99</p>
+        </div>
+        <div class="card shoes">
+            <img src="Pictures/Sneakers/SneakersHigh.png" alt="Sneakers 2">
+            <p class="card-name">Sneakers- high-top sneakers</p>
+            <p class="card-price">€59.99</p>
+        </div>
+        <div class="card shoes">
+            <img src="Pictures/Sneakers/ShmotkiBlueSneakers.png" alt="Sneakers 3">
+            <p class="card-name">Sneakers- blue fashion sneakers</p>
+            <p class="card-price">€59.99</p>
+        </div>
+    </div>
+</div>
+</main>
+<footer>
+    <p class="contacts">Contact us at info@shmotki.com</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
