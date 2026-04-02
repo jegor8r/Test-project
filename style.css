@@ -183,7 +183,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0;  /* убираем gap между input и кнопкой */
+    gap: 0; 
     margin: 20px auto;
     width: 90%;
 }
